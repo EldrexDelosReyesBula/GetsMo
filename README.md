@@ -1,9 +1,10 @@
+![GetsMo Preview](https://eldrex.landecs.org/docs/GetsMo.gif)
+
 # GetsMo
 
 **GetsMo** is a smart, beginner-friendly logic assistant designed to help learners understand and apply the **Rules of Replacement** in propositional logic.
 
-It focuses on one clear goal:
-to guide users in proving that two propositions are **logically equivalent** through structured, step-by-step reasoning.
+It focuses on one clear goal: to guide users in proving that two propositions are **logically equivalent** through structured, step-by-step reasoning.
 
 ---
 
@@ -96,4 +97,3 @@ It is not just a tool for solving problems, but a space for learning how logical
 
 GetsMo is more than a logic assistant.
 It is a learning environment built to make propositional logic clearer, more intuitive, and more accessible for everyone.
-
