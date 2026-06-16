@@ -1,4 +1,6 @@
-# GetsMo — Formal Logic Workspace
+<img width="2050" height="1155" alt="getsmo-banner" src="https://github.com/user-attachments/assets/2349ff0f-781b-4318-a7bb-9a371af68fa6" />
+
+# GetsMo — Learn Logic by Seeing It.
 
 GetsMo is a classroom-ready propositional logic workspace designed for students and educators. It offers an interactive environment to generate truth tables, solve Karnaugh maps, analyze logical conditionals, and learn discrete mathematics through offline-first, client-side tools.
 
