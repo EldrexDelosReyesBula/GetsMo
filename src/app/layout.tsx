@@ -25,9 +25,9 @@ const funnelDisplay = Funnel_Display({
 
 /* ── SEO Metadata ── */
 export const metadata: Metadata = {
-  metadataBase: new URL("https://getsmo.vercel.app"),
+  metadataBase: new URL("https://getsmoba.vercel.app"),
   title: {
-    default: "GetsMo — Formal Logic Workspace",
+    default: "GetsMo — Learn Logic by Seeing It.",
     template: "%s | GetsMo",
   },
   description:
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://getsmo.vercel.app",
+    url: "https://getsmoba.vercel.app",
     siteName: "GetsMo",
-    title: "GetsMo — Formal Logic Workspace",
+    title: "GetsMo — Learn Logic by Seeing It.",
     description:
       "Free, offline-first tool for truth tables, Karnaugh maps, conditional analysis, and propositional logic — built for CS, IT, Engineering, and Discrete Mathematics students.",
     images: [
@@ -72,13 +72,13 @@ export const metadata: Metadata = {
         url: "/getsmo-official-logo.svg",
         width: 1200,
         height: 630,
-        alt: "GetsMo — Formal Logic Workspace",
+        alt: "GetsMo — Learn Logic by Seeing It.",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "GetsMo — Formal Logic Workspace",
+    title: "GetsMo — Learn Logic by Seeing It.",
     description:
       "Free, offline-first formal logic workspace. Truth tables, K-maps, conditionals, and more — runs entirely in your browser.",
     images: ["/getsmo-official-logo.svg"],
@@ -90,7 +90,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "GetsMo",
-  url: "https://getsmo.vercel.app",
+  url: "https://getsmoba.vercel.app",
   description:
     "A free, offline-first formal logic workspace for students and educators. Generate truth tables, solve Karnaugh maps, and learn propositional logic.",
   applicationCategory: "EducationApplication",
@@ -122,7 +122,7 @@ export default function RootLayout({
       className={`${inter.variable} ${jetbrainsMono.variable} ${funnelDisplay.variable}`}
     >
       <head>
-        <link rel="canonical" href="https://getsmo.vercel.app" />
+        <link rel="canonical" href="https://getsmoba.vercel.app" />
       </head>
       <body>
         {children}
