@@ -92,7 +92,7 @@ export function Workspace() {
             />
             <div>
               <h1 className="text-lg font-semibold leading-none">GetsMo</h1>
-              <p className="text-xs text-muted-foreground mt-0.5">Formal Logic Workspace</p>
+              <p className="text-xs text-muted-foreground mt-0.5">Learn Logic by Seeing It.</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -284,7 +284,7 @@ export function Workspace() {
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Every computation — truth tables, K-maps, classifications, and conditional analyses —
-              runs directly in your browser. No account. No AI. No cloud. No backend. Your work
+              runs directly in your browser. Your work
               stays private and available even without an internet connection.
             </p>
             <p className="text-sm text-muted-foreground leading-relaxed">
