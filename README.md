@@ -18,16 +18,16 @@ GetsMo is a classroom-ready propositional logic workspace designed for students 
 
 GetsMo supports a wide variety of inputs and symbols:
 
-| Operator | Standard Symbol | Text / Alternative Inputs |
-|:---|:---:|:---|
-| **Negation (NOT)** | `¬` | `not`, `!`, `~` |
-| **Conjunction (AND)** | `∧` | `and`, `&&`, `&` |
-| **Disjunction (OR)** | `∨` | `or`, `\|\|`, `\|` |
-| **Exclusive OR (XOR)** | `⊕` | `xor`, `^` |
-| **Implication (IF...THEN)** | `→` | `implies`, `->`, `=>` |
-| **Biconditional (IFF)** | `↔` | `iff`, `<->`, `≡` |
-| **True / Verum** | `⊤` | `true`, `T`, `1` |
-| **False / Falsum** | `⊥` | `false`, `F`, `0` |
+| Operator                    | Standard Symbol | Text / Alternative Inputs |
+| :-------------------------- | :-------------: | :------------------------ |
+| **Negation (NOT)**          |       `¬`       | `not`, `!`, `~`           |
+| **Conjunction (AND)**       |       `∧`       | `and`, `&&`, `&`          |
+| **Disjunction (OR)**        |       `∨`       | `or`, `\|\|`, `\|`        |
+| **Exclusive OR (XOR)**      |       `⊕`       | `xor`, `^`                |
+| **Implication (IF...THEN)** |       `→`       | `implies`, `->`, `=>`     |
+| **Biconditional (IFF)**     |       `↔`       | `iff`, `<->`, `≡`         |
+| **True / Verum**            |       `⊤`       | `true`, `T`, `1`          |
+| **False / Falsum**          |       `⊥`       | `false`, `F`, `0`         |
 
 ---
 

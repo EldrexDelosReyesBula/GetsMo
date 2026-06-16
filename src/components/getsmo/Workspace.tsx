@@ -17,7 +17,7 @@ import { Classification } from "./Classification";
 import { ConditionalAnalysis } from "./ConditionalAnalysis";
 import { KMapView } from "./KMap";
 import { LearnMode } from "./LearnMode";
-import { Lightbulb, Sparkles, Table2, Grid3x3, GraduationCap, Moon, Sun } from "lucide-react";
+import { Lightbulb, Table2, Grid3x3, GraduationCap, Moon, Sun } from "lucide-react";
 
 type Tab = "table" | "kmap" | "conditional" | "learn";
 
@@ -84,12 +84,12 @@ export function Workspace() {
       <header className="sticky top-0 z-30 backdrop-blur-xl bg-background/75 border-b border-border">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div
-              className="size-10 rounded-2xl grid place-items-center"
-              style={{ background: "var(--gradient-primary)" }}
-            >
-              <Sparkles className="size-5 text-primary-foreground" />
-            </div>
+            <img
+              src="/getsmo-official-logo.svg"
+              alt="GetsMo logo"
+              className="size-10 rounded-2xl object-contain"
+              draggable={false}
+            />
             <div>
               <h1 className="text-lg font-semibold leading-none">GetsMo</h1>
               <p className="text-xs text-muted-foreground mt-0.5">Formal Logic Workspace</p>
@@ -273,13 +273,23 @@ export function Workspace() {
             </ul>
           </div>
 
-          <div className="surface-elevated p-5 space-y-2">
+          <div className="surface-elevated p-5 space-y-3">
             <h2 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
               About
             </h2>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              GetsMo runs entirely in your browser. No AI. No cloud. No backend. Built for students
-              of CS, IT, Engineering, and Discrete Mathematics.
+              GetsMo is a free, offline-first formal logic workspace built for students and
+              educators in Computer Science, Information Technology, Engineering, and Discrete
+              Mathematics.
+            </p>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Every computation — truth tables, K-maps, classifications, and conditional analyses —
+              runs directly in your browser. No account. No AI. No cloud. No backend. Your work
+              stays private and available even without an internet connection.
+            </p>
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Designed for clarity and speed, GetsMo lets you focus on understanding logic, not
+              wrestling with tools.
             </p>
           </div>
         </aside>
